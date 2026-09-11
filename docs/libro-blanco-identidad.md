@@ -80,21 +80,21 @@ Cada persona es propietaria y controladora de su propia identidad digital. CONCO
 Los datos biométricos originales nunca abandonan el dispositivo del usuario. El sistema trabaja exclusivamente con representaciones matemáticas derivadas que no pueden ser revertidas.
 
 ### 4.2 Inclusión universal
-- Múltiples factores biométricos alternativos para personas con limitaciones
-- Ningún factor único es obligatorio
-- Modo de verificación asistida para personas mayores
-- Funcionamiento offline parcial para zonas con conectividad limitada
-- Interfaz en los 50 idiomas más hablados del mundo
+- Múltiples factores biométricos alternativos para personas con limitaciones.
+- Ningún factor único es obligatorio.
+- Modo de verificación asistida para personas mayores.
+- Funcionamiento offline parcial para zonas con conectividad limitada.
+- Interfaz en los 50 idiomas más hablados del mundo.
 
 ---
 
 ## 5. Descentralización Absoluta
 
-- Los datos biométricos residen exclusivamente en el dispositivo del usuario
-- Las pruebas criptográficas se verifican de forma distribuida
-- El registro de votos se almacena en blockchain pública y auditable
-- El código es completamente abierto y auditable
-- Ninguna entidad puede apagar o modificar el sistema unilateralmente
+- Los datos biométricos residen exclusivamente en el dispositivo del usuario.
+- Las pruebas criptográficas se verifican de forma distribuida.
+- El registro de votos se almacena en blockchain pública y auditable.
+- El código es completamente abierto y auditable.
+- Ninguna entidad puede apagar o modificar el sistema unilateralmente.
 
 ### El principio de disolución
 Si el sistema fuera comprometido en su descentralización, el protocolo activaría su propia disolución. CONCORDIA prefiere no existir a existir corrompido.
@@ -106,10 +106,10 @@ Si el sistema fuera comprometido en su descentralización, el protocolo activar�
 La amenaza de la IA para los sistemas de gobernanza democrática no es teórica — es una realidad presente y creciente.
 
 ### Por qué la IA no puede suplantar identidades en CONCORDIA
-- La detección de vivacidad verifica presencia humana real en cada verificación
-- La combinación de múltiples factores biométricos hace la falsificación estadísticamente imposible
-- Los zero-knowledge proofs garantizan que ningún agente de IA puede obtener datos para suplantar identidades
-- La auditoría permanente detecta comportamientos artificiales antes de que afecten ningún resultado
+- La detección de vivacidad verifica presencia humana real en cada verificación.
+- La combinación de múltiples factores biométricos hace la falsificación estadísticamente imposible.
+- Los zero-knowledge proofs garantizan que ningún agente de IA puede obtener datos para suplantar identidades.
+- La auditoría permanente detecta comportamientos artificiales antes de que afecten ningún resultado.
 
 > *"CONCORDIA no puede ser votado por máquinas. Cada voto es la expresión verificada de un ser humano real, vivo y único."*
 
@@ -118,21 +118,21 @@ La amenaza de la IA para los sistemas de gobernanza democrática no es teórica 
 ## 7. Hoja de Ruta Técnica
 
 **Etapa 1 — Investigación y Diseño (Meses 1-12)**
-- Definición formal del protocolo criptográfico de identidad
-- Selección y prueba de algoritmos biométricos multimodales
-- Diseño de la arquitectura de zero-knowledge proofs
-- Publicación del protocolo como estándar abierto
+- Definición formal del protocolo criptográfico de identidad.
+- Selección y prueba de algoritmos biométricos multimodales.
+- Diseño de la arquitectura de zero-knowledge proofs.
+- Publicación del protocolo como estándar abierto.
 
 **Etapa 2 — Prototipo (Meses 13-24)**
-- Desarrollo del prototipo funcional
-- Pruebas de inclusión con grupos diversos
-- Primera auditoría de seguridad independiente
-- Prueba piloto con comunidades voluntarias
+- Desarrollo del prototipo funcional.
+- Pruebas de inclusión con grupos diversos.
+- Primera auditoría de seguridad independiente.
+- Prueba piloto con comunidades voluntarias.
 
 **Etapa 3 — Despliegue Global (Meses 25-48)**
-- Lanzamiento público integrado con la plataforma de votación
-- Primer ejercicio: elección de la Bandera de la Humanidad
-- Escalado hacia millones de usuarios verificados
+- Lanzamiento público integrado con la plataforma de votación.
+- Primer ejercicio: elección de la Bandera de la Humanidad.
+- Escalado hacia millones de usuarios verificados.
 
 ---
 
