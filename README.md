@@ -32,10 +32,10 @@ CONCORDIA combina tres capas tecnológicas para garantizar que cada voz pertenec
 | **Infraestructura** | IPFS / Arweave + Open Source | Descentralizado. Sin servidor central. Sin punto de control. |
 
 ### Principios técnicos irrenunciables
-- 🔒 Los datos biométricos **nunca abandonan** el dispositivo del usuario
-- 🌐 **Sin base de datos central** — ninguna entidad puede controlar el sistema
-- 👁️ **Auditable en tiempo real** por cualquier persona en el mundo
-- 🤖 **Resistente a la IA** — detección de vivacidad activa impide suplantación artificial
+- 🔒 Los datos biométricos **nunca abandonan** el dispositivo del usuario.
+- 🌐 **Sin base de datos central** — ninguna entidad puede controlar el sistema.
+- 👁️ **Auditable en tiempo real** por cualquier persona en el mundo.
+- 🤖 **Resistente a la IA** — detección de vivacidad activa impide suplantación artificial.
 
 ---
 
