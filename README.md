@@ -85,7 +85,7 @@ Los problemas técnicos más urgentes están en:
 - [ ] Pruebas piloto con comunidades en distintos continentes.
 
 ### Si quieres apoyar de cualquier otra forma
-Escríbenos a: **contacto@concordia.earth**
+Escríbenos a: **contact@concordia.earth**
 
 ---
 
