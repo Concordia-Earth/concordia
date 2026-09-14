@@ -54,7 +54,23 @@ Una mayoría nunca puede votar para eliminar o reducir los derechos de una minor
 CONCORDIA reconoce que su relevancia futura lo convierte en objetivo potencial de actores con intenciones maliciosas. El sistema incorpora mecanismos de detección, transparencia y auditoría permanente para hacer visible cualquier intento de manipulación.
 
 ### ✕ Nunca será centralizado
-Ninguna persona, empresa, gobierno u organización podrá concentrar el control del sistema. Si el sistema fuera centralizado por cualquier razón, el protocolo se disuelve automáticamente.
+Ninguna persona, empresa, gobierno u organización podrá concentrar 
+el control del sistema. Ante cualquier intento de centralización o 
+corrupción, CONCORDIA activa su Sistema de Integridad y Reparación 
+en tres niveles:
+
+**Nivel 1 — Detección:** auditoría permanente y pública que identifica 
+cualquier intento de influencia en tiempo real, antes de que afecte 
+ningún resultado.
+
+**Nivel 2 — Contención y Reparación:** mecanismos técnicos y comunitarios 
+para aislar la corrupción, revertir sus efectos y restaurar la integridad 
+del sistema sin interrumpir su funcionamiento.
+
+**Nivel 3 — Disolución:** solo como último recurso absoluto, cuando la 
+corrupción sea tan profunda que la reparación sea técnicamente imposible. 
+No es la primera respuesta — es la garantía final de que CONCORDIA nunca 
+será un instrumento corrompido al servicio de intereses ajenos a la humanidad.
 
 ### ✕ Nunca tendrá fines lucrativos
 CONCORDIA no generará beneficio económico para ninguna persona ni entidad. Los recursos que reciba son exclusivamente para su desarrollo y mantenimiento como bien público global.
