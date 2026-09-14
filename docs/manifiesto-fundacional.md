@@ -16,6 +16,23 @@ CONCORDIA es una herramienta sin dueños, sin banderas y sin fronteras. Una infr
 
 CONCORDIA no pide permiso a los gobiernos ni a las instituciones. No pertenece a ningún gobierno, organización, empresa ni religión. No tiene ánimo de lucro. Ninguna persona, incluido su impulsor, obtendrá beneficio económico de este proyecto. Somos código abierto, alojamiento descentralizado y voluntad humana.
 
+CONCORDIA está diseñado para ser resiliente, no frágil. Ante cualquier 
+intento de corrupción, manipulación o captura del sistema, CONCORDIA 
+activa su Sistema de Integridad y Reparación en tres niveles:
+
+**Nivel 1 — Detección:** auditoría permanente y pública que identifica 
+cualquier intento de influencia en tiempo real, antes de que afecte 
+ningún resultado.
+
+**Nivel 2 — Contención y Reparación:** mecanismos técnicos y comunitarios 
+para aislar la corrupción, revertir sus efectos y restaurar la integridad 
+del sistema sin interrumpir su funcionamiento.
+
+**Nivel 3 — Disolución:** solo como último recurso absoluto, cuando la 
+corrupción sea tan profunda que la reparación sea técnicamente imposible. 
+No es la primera respuesta — es la garantía final de que CONCORDIA nunca 
+será un instrumento corrompido al servicio de intereses ajenos a la humanidad.
+
 La tecnología es nuestra garantía. Cada voto emitido en CONCORDIA queda registrado en una blockchain pública — inmutable, transparente y auditable por cualquier persona en el mundo. Nadie puede alterarlo, borrarlo ni manipularlo. La identidad de cada participante se verifica mediante un perfil biométrico descentralizado, sin necesidad de correo electrónico, contraseñas ni registros de ningún tipo. Tu voz es tuya. Tu identidad, también.
 
 CONCORDIA puede ser utilizada para expresar el pensamiento colectivo en cualquier escala — desde decisiones locales y regionales hasta nacionales e internacionales. Siempre libre de sesgos políticos, religiosos o intereses económicos de cualquier tipo. No es una herramienta de ningún partido, movimiento o ideología. Es simplemente la voz de las personas, organizada con transparencia y respeto absoluto a cada individuo.
