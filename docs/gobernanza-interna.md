@@ -73,11 +73,24 @@ Estos principios no pueden ser modificados por ninguna votación, consenso o may
 
 **Un humano, un voto** — La igualdad radical es matemática, no una promesa.
 
-**Descentralización permanente** — Si el sistema se centralizara, el protocolo se disuelve automáticamente.
+**Descentralización permanente** — La descentralización es permanente 
+e irrevocable. Ante cualquier intento de centralización o corrupción, 
+CONCORDIA activa su Sistema de Integridad y Reparación en tres niveles:
+
+**Nivel 1 — Detección:** auditoría permanente y pública que identifica 
+cualquier intento de influencia en tiempo real, antes de que afecte 
+ningún resultado.
+
+**Nivel 2 — Contención y Reparación:** mecanismos técnicos y comunitarios 
+para aislar la corrupción, revertir sus efectos y restaurar la integridad 
+del sistema sin interrumpir su funcionamiento.
+
+**Nivel 3 — Disolución:** solo como último recurso absoluto, cuando la 
+corrupción sea tan profunda que la reparación sea técnicamente imposible. 
+No es la primera respuesta — es la garantía final de que CONCORDIA nunca 
+será un instrumento corrompido al servicio de intereses ajenos a la humanidad.
 
 **Neutralidad radical** — Sin ideología política, religiosa ni económica.
-
----
 
 ## 5. Los Ocho Valores Universales
 
