@@ -56,11 +56,11 @@ No es la inteligencia de un individuo brillante. Es la inteligencia que construy
 > *"La IA puede procesar más información que cualquier ser humano. Pero no puede querer. No puede sufrir. No puede amar. No puede decidir con conciencia moral. La Inteligencia Social Humana es lo que hace que nuestras decisiones colectivas tengan valor — porque nacen de seres que experimentan las consecuencias de lo que deciden."*
 
 ### 3.2 Lo que CONCORDIA hace por la Inteligencia Social Humana
-- Facilita la deliberación colectiva a escala global
-- Amplifica las voces que los sistemas actuales silencian
-- Crea registros permanentes e inalterables del pensamiento colectivo humano
-- Desarrolla la capacidad de consenso de la especie
-- Protege la autenticidad de la expresión humana frente a la contaminación artificial
+- Facilita la deliberación colectiva a escala global.
+- Amplifica las voces que los sistemas actuales silencian.
+- Crea registros permanentes e inalterables del pensamiento colectivo humano.
+- Desarrolla la capacidad de consenso de la especie.
+- Protege la autenticidad de la expresión humana frente a la contaminación artificial.
 
 ### 3.3 El contraste fundamental
 
@@ -76,11 +76,11 @@ No es la inteligencia de un individuo brillante. Es la inteligencia que construy
 ## 4. Por qué la IA no puede infiltrar CONCORDIA
 
 ### 4.1 El sistema biométrico como barrera infranqueable
-- Reconocimiento de iris con detección de vivacidad en 3D
-- Reconocimiento facial 3D resistente a deepfakes
-- Huella dactilar con detección de pulso y temperatura
-- Patrones venosos imposibles de replicar externamente
-- Detección de vivacidad que verifica presencia física real
+- Reconocimiento de iris con detección de vivacidad en 3D.
+- Reconocimiento facial 3D resistente a deepfakes.
+- Huella dactilar con detección de pulso y temperatura.
+- Patrones venosos imposibles de replicar externamente.
+- Detección de vivacidad que verifica presencia física real.
 
 La probabilidad de que un sistema de IA pueda falsificar simultáneamente todos estos factores es estadísticamente indistinguible de cero.
 
@@ -99,16 +99,16 @@ Una infiltración masiva de agentes de IA generaría patrones estadísticamente 
 CONCORDIA no es un proyecto anti-tecnológico. La IA tiene el potencial de contribuir enormemente al bienestar humano. CONCORDIA es pro-humanidad — apoya el desarrollo tecnológico cuando está al servicio de los valores humanos, y establece límites cuando amenaza la autonomía de la especie.
 
 ### Lo que CONCORDIA acepta de la IA
-- Como herramienta de análisis para comprender mejor los problemas sobre los que se vota
-- Como facilitadora de traducción e inclusión
-- Como asistente en la organización de propuestas ciudadanas
-- Como detector de desinformación en debates previos a votaciones
+- Como herramienta de análisis para comprender mejor los problemas sobre los que se vota.
+- Como facilitadora de traducción e inclusión.
+- Como asistente en la organización de propuestas ciudadanas.
+- Como detector de desinformación en debates previos a votaciones.
 
 ### Lo que CONCORDIA nunca permitirá de la IA
-- Ningún agente de IA puede emitir votos ni participar como si fuera un ser humano
-- Ningún algoritmo puede determinar el resultado de una deliberación
-- Ningún sistema de IA puede tener acceso a datos biométricos de los participantes
-- Ninguna empresa de IA puede influir sobre la infraestructura o los resultados
+- Ningún agente de IA puede emitir votos ni participar como si fuera un ser humano.
+- Ningún algoritmo puede determinar el resultado de una deliberación.
+- Ningún sistema de IA puede tener acceso a datos biométricos de los participantes.
+- Ninguna empresa de IA puede influir sobre la infraestructura o los resultados.
 
 > *"La IA puede ser un instrumento extraordinario al servicio de la humanidad. Pero el que decide cómo se usa ese instrumento debe ser la humanidad misma."*
 
