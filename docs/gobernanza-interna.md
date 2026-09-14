@@ -65,7 +65,9 @@ Para decisiones estratégicas, no basta con que la mayoría vote a favor — es 
 
 ## 4. Los Principios Intocables
 
-Estos principios no pueden ser modificados por ninguna votación, consenso o mayoría. Si alguno fuera comprometido, el protocolo activa su disolución.
+Estos principios no pueden ser modificados por ninguna votación, consenso o mayoría. Si alguno fuera comprometido, el protocolo activa su Sistema de 
+Integridad y Reparación. Solo si la reparación fuera imposible, 
+se activaría la disolución como último recurso.
 
 **Independencia absoluta** — Sin influencia de ningún gobierno, empresa, organización o religión.
 
