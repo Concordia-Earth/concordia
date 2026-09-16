@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONCORDIA — Le pertenece a nuestra especie</title>
+    <meta name="description" content="Plataforma de gobernanza global, democrática y descentralizada. Sin dueños. Sin fronteras. Sin ánimo de lucro.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #0a0a0f;
+            --surface: #12121a;
+            --border: #1e1e2e;
+            --text: #e8e8f0;
+            --muted: #8888a8;
+            --accent: #6b8cff;
+            --accent-soft: #1a1f3a;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            padding: 100px 24px 80px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            font-family: 'Georgia', serif;
+            font-size: clamp(48px, 10vw, 96px);
+            font-weight: normal;
+            letter-spacing: 0.15em;
+            color: var(--text);
+            margin-bottom: 16px;
+        }
+
+        .tagline {
+            font-size: clamp(14px, 2vw, 18px);
+            color: var(--muted);
+            font-style: italic;
+            margin-bottom: 48px;
+            letter-spacing: 0.05em;
+        }
+
+        .header-links {
+            display: flex;
+            gap: 32px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .header-links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-family: 'Arial', sans-serif;
+            transition: opacity 0.2s;
+        }
+
+        .header-links a:hover {
+            opacity: 0.7;
+        }
+
+        /* MAIN */
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 80px 24px;
+        }
+
+        /* MANIFESTO */
+        .manifesto {
+            margin-bottom: 80px;
+        }
+
+        .manifesto p {
+            font-size: clamp(16px, 2vw, 19px);
+            color: var(--text);
+            margin-bottom: 28px;
+            text-align: justify;
+        }
+
+        .manifesto p.opening {
+            font-size: clamp(18px, 2.5vw, 22px);
+            color: var(--text);
+            font-style: italic;
+        }
+
+        .manifesto p.highlight {
+            font-size: clamp(16px, 2vw, 19px);
+            color: var(--text);
+            font-weight: bold;
+        }
+
+        .manifesto .closing {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 60px;
+            border-top: 1px solid var(--border);
+        }
+
+        .manifesto .closing-main {
+            font-size: clamp(20px, 3vw, 28px);
+            font-weight: bold;
+            color: var(--text);
+            margin-bottom: 24px;
+            font-style: normal;
+        }
+
+        /* DIVIDER */
+        .divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 80px 0;
+        }
+
+        /* CTA */
+        .cta {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .cta h2 {
+            font-size: clamp(20px, 3vw, 28px);
+            font-weight: normal;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        .cta p {
+            color: var(--muted);
+            margin-bottom: 40px;
+            font-size: 16px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+            padding: 14px 32px;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 0.05em;
+            transition: opacity 0.2s;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.85;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--accent);
+            padding: 14px 32px;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 0.05em;
+            border: 1px solid var(--accent);
+            transition: opacity 0.2s;
+        }
+
+        .btn-secondary:hover {
+            opacity: 0.7;
+        }
+
+        /* VALUES */
+        .values {
+            margin-bottom: 80px;
+        }
+
+        .values h2 {
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--muted);
+            font-family: 'Arial', sans-serif;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        .values-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .value-tag {
+            background: var(--accent-soft);
+            color: var(--accent);
+            padding: 8px 20px;
+            font-size: 14px;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 0.05em;
+        }
+
+        /* CONTRIBUTE */
+        .contribute {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 48px;
+            margin-bottom: 80px;
+        }
+
+        .contribute h2 {
+            font-size: clamp(18px, 2.5vw, 24px);
+            font-weight: normal;
+            margin-bottom: 32px;
+            color: var(--text);
+        }
+
+        .contribute-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+        }
+
+        .contribute-item h3 {
+            font-size: 14px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent);
+            font-family: 'Arial', sans-serif;
+            margin-bottom: 12px;
+        }
+
+        .contribute-item p {
+            font-size: 15px;
+            color: var(--muted);
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* FOOTER */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 48px 24px;
+            text-align: center;
+        }
+
+        footer p {
+            color: var(--muted);
+            font-size: 13px;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">CONCORDIA</div>
+        <div class="tagline">La cualidad de poner los corazones juntos</div>
+        <nav class="header-links">
+            <a href="#manifiesto">Manifiesto</a>
+            <a href="#contribuir">Contribuir</a>
+            <a href="https://github.com/Concordia-Earth/concordia" target="_blank">GitHub</a>
+            <a href="mailto:contact@concordia.earth">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- MANIFIESTO -->
+        <section class="manifesto" id="manifiesto">
+
+            <p class="opening">Somos seres sociales. Es la sociedad la que nos hace humanos.</p>
+
+            <p>Sin embargo, los sistemas que hemos construido para organizarnos nos fragmentan, nos enfrentan y nos silencian. No porque carezcamos de soluciones — sabemos cómo resolver el hambre, los conflictos, la desigualdad. Fallamos porque los intereses económicos se anteponen sistemáticamente a lo que beneficia a la humanidad.</p>
+
+            <p class="highlight">Este es el fallo fundamental de nuestra civilización. No es un fallo de inteligencia. Es un fallo del sistema.</p>
+
+            <p>Ha llegado el momento de cambiarlo.</p>
+
+            <p>CONCORDIA es una herramienta sin dueños, sin banderas y sin fronteras. Una infraestructura tecnológica descentralizada cuyo único propósito es permitir que la humanidad se escuche a sí misma. Que la persona más pobre tenga exactamente la misma voz que el hombre más poderoso del mundo. Que la razón colectiva — no el dinero, no el poder — sea el faro que guíe nuestras decisiones comunes.</p>
+
+            <p>CONCORDIA no pide permiso a los gobiernos ni a las instituciones. No pertenece a ningún gobierno, organización, empresa ni religión. No tiene ánimo de lucro. Ninguna persona, incluido su impulsor, obtendrá beneficio económico de este proyecto. Somos código abierto, alojamiento descentralizado y voluntad humana. Y estamos diseñados para ser resilientes — CONCORDIA dispone de un Sistema de Integridad y Reparación que garantiza que ningún intento de corrupción, manipulación o captura pueda torcer su propósito.</p>
+
+            <p>Cada voto emitido en CONCORDIA queda grabado de forma inmutable y transparente mediante blockchain y es auditable por cualquier persona en el mundo. La identidad de cada participante se verifica de forma segura y descentralizada, usando acceso biométrico sin entregar datos personales. Tu voz es tuya. Tu identidad también.</p>
+
+            <p>Vivimos en una era en que la tecnología avanza más rápido que nuestra capacidad de gobernarnos. En que algoritmos, inteligencias artificiales e intereses ocultos moldean lo que pensamos, lo que votamos y lo que creemos posible. CONCORDIA es la respuesta humana a ese desafío — no una máquina que decide por nosotros, sino una herramienta que amplifica lo que somos: seres capaces de dialogar, de acordar y de construir juntos.</p>
+
+            <p>CONCORDIA puede ser utilizada para expresar el pensamiento colectivo en cualquier escala — desde decisiones locales y regionales hasta nacionales e internacionales. Siempre libre de sesgos políticos, religiosos o intereses económicos de cualquier tipo. Es simplemente la voz de las personas, organizada con transparencia y respeto absoluto a cada individuo.</p>
+
+            <p>Nuestro primer acto será simbólico y poderoso: elegir juntos, por primera vez en la historia, un símbolo que nos represente a todos. No impuesto por ningún estado ni institución — elegido libremente por la especie.</p>
+
+            <p>El horizonte es más amplio: construir el mecanismo por el cual la humanidad pueda, por primera vez, expresar su voluntad colectiva sobre los problemas que amenazan nuestra existencia común. El clima. La guerra. La desigualdad. La tecnología sin ética. Los retos que ningún gobierno afronta solo porque ninguno tiene el mandato real de toda la humanidad.</p>
+
+            <p class="highlight">CONCORDIA es ese mandato.</p>
+
+            <p>Sabemos que es un camino largo. Lo recorreremos con disciplina, inteligencia e integridad.</p>
+
+            <p>Porque creemos que somos capaces de algo mejor. Porque creemos que una humanidad que se escucha a sí misma es una humanidad más sabia, más justa y más libre.</p>
+
+            <p>CONCORDIA no te pertenece a ti ni a mí. Es un bien común de la humanidad. Libre, abierto e incorruptible por definición.</p>
+
+            <div class="closing">
+                <div class="closing-main">Le pertenece a nuestra especie.</div>
+            </div>
+
+        </section>
+
+        <hr class="divider">
+
+        <!-- CTA -->
+        <section class="cta" id="contribuir">
+            <h2>Únete a CONCORDIA</h2>
+            <p>No necesitas pedir permiso. Solo necesitas creer en la idea.</p>
+            <div class="cta-buttons">
+                <a href="https://github.com/Concordia-Earth/concordia" target="_blank" class="btn-primary">Ver en GitHub</a>
+                <a href="mailto:contact@concordia.earth" class="btn-secondary">Escribirnos</a>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- VALUES -->
+        <section class="values">
+            <h2>Valores Universales</h2>
+            <div class="values-list">
+                <span class="value-tag">Respeto</span>
+                <span class="value-tag">Empatía</span>
+                <span class="value-tag">Honestidad</span>
+                <span class="value-tag">Responsabilidad</span>
+                <span class="value-tag">Solidaridad</span>
+                <span class="value-tag">Gratitud</span>
+                <span class="value-tag">Justicia</span>
+                <span class="value-tag">Libertad</span>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- CONTRIBUTE -->
+        <section class="contribute">
+            <h2>¿Cómo puedes contribuir?</h2>
+            <div class="contribute-grid">
+                <div class="contribute-item">
+                    <h3>Desarrolladores</h3>
+                    <p>Criptografía, blockchain, biometría, identidad digital. El código que escribas pertenecerá a la especie humana.</p>
+                </div>
+                <div class="contribute-item">
+                    <h3>Activistas</h3>
+                    <p>Organizaciones de derechos humanos, democracia digital y justicia social. Únete como cofundador.</p>
+                </div>
+                <div class="contribute-item">
+                    <h3>Ciudadanos</h3>
+                    <p>Comparte la visión. Traduce el proyecto. Forma parte de la comunidad que está construyendo esto.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>CONCORDIA · <a href="https://github.com/Concordia-Earth/concordia" target="_blank">GitHub</a> · <a href="mailto:contact@concordia.earth">contact@concordia.earth</a></p>
+        <p>Dominio público · Licencia CC0 · Le pertenece a nuestra especie</p>
+    </footer>
+
+</body>
+</html>
