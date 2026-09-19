@@ -146,3 +146,22 @@ El código, los documentos y los resultados de CONCORDIA son dominio público. C
 *Le pertenece a nuestra especie.*
 
 </div>
+
+<a name="english-version"></a>
+---
+
+# CONCORDIA (English Overview)
+
+**The quality of bringing hearts together**
+
+**concordia.earth** | Open Source Governance Infrastructure
+
+### What is CONCORDIA?
+CONCORDIA is a global, decentralized, and open-source technological infrastructure designed to allow humanity to express its collective will on key decisions affecting our shared future.
+
+### Key Features
+- **Public Domain (CC0):** Free, sovereign, and nonprofit.
+- **Self-Sovereign Identity (SSI) & Zero-Knowledge Proofs (ZKP):** Human uniqueness verification without storing personal data, guaranteeing privacy.
+- **Blockchain Inmutability:** Auditable registry for collective decision-making.
+
+📖 **Full documentation in English:** See [`/docs/manifesto-en.md`](./docs/manifesto-en.md)
