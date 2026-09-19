@@ -1,8 +1,8 @@
 # CONCORDIA
-*Read this in other languages: [English](#english-version) | [Español](#qué-es-concordia)*
+*Leer en otros idiomas: [Español](#qué-es-concordia) | [English](#english-version)*
 ### *La cualidad de poner los corazones juntos*
 
-**concordia.earth** | [Manifiesto Fundacional](#manifiesto) | [Cómo contribuir](#contribuir) | [Documentación](#documentacion)
+**concordia.earth** | [Manifiesto Fundacional](docs/manifiesto-fundacional.md) | [Cómo contribuir](#cómo-contribuir) | [Documentación](#documentación)
 
 ---
 
@@ -150,18 +150,151 @@ El código, los documentos y los resultados de CONCORDIA son dominio público. C
 <a name="english-version"></a>
 ---
 
-# CONCORDIA (English Overview)
+# CONCORDIA (English Version)
+*Read in other languages: [English](#english-version) | [Español](#qué-es-concordia)*
+### *The quality of bringing hearts together*
 
-**The quality of bringing hearts together**
+**concordia.earth** | [Foundational Manifesto](docs/manifiesto-fundacional.md) | [How to Contribute](#how-to-contribute) | [Documentation](#documentation-1)
 
-**concordia.earth** | Open Source Governance Infrastructure
+---
 
-### What is CONCORDIA?
-CONCORDIA is a global, decentralized, and open-source technological infrastructure designed to allow humanity to express its collective will on key decisions affecting our shared future.
+## What is CONCORDIA?
 
-### Key Features
-- **Public Domain (CC0):** Free, sovereign, and nonprofit.
-- **Self-Sovereign Identity (SSI) & Zero-Knowledge Proofs (ZKP):** Human uniqueness verification without storing personal data, guaranteeing privacy.
-- **Blockchain Inmutability:** Auditable registry for collective decision-making.
+CONCORDIA is a global, democratic, and decentralized governance platform. Its purpose is to allow any human being, regardless of origin, language, or economic condition, to express their collective will on the issues affecting our entire species.
 
-📖 **Full documentation in English:** See [`/docs/manifesto-en.md`](./docs/manifesto-en.md)
+**It does not belong to any government, company, institution, or religion. It is non-profit. It is a common good of humanity.**
+
+---
+
+## The Problem
+
+Current institutions represent governments, not citizens. Economic interests systematically take precedence over what benefits humanity. We know how to solve hunger, conflicts, inequality — but we lack a legitimate mechanism that translates the real will of the people into collective action.
+
+**CONCORDIA is that mechanism.**
+
+---
+
+## How It Works
+
+CONCORDIA combines three technological layers to guarantee that each voice belongs to a real, unique human being:
+
+| Layer | Technology | Purpose |
+|------|-----------|-----------|
+| **Identity** | Multimodal Biometrics + Zero-Knowledge Proofs | One human, one vote. No personal data stored. |
+| **Voting** | Blockchain (Polygon / Arbitrum) | Immutable, transparent, and auditable results. |
+| **Infrastructure** | IPFS / Arweave + Open Source | Decentralized. No central server. No single point of control. |
+
+### Core Technical Principles
+- 🔒 Biometric data **never leaves** the user's device.
+- 🌐 **No central database** — no single entity can control the system.
+- 👁️ **Auditable in real time** by anyone in the world.
+- 🤖 **AI Resistant** — active liveness detection prevents artificial impersonation.
+
+---
+
+## The First Consensus
+
+Our first act will be to choose together, for the first time in history, a symbol representing all of humanity: **The Flag of Humanity**.
+
+Not as an end in itself, but as a proof of concept — demonstrating that 8 billion people can reach an agreement without any government, corporation, or algorithm deciding for them.
+
+---
+
+## Current Project Status
+
+**Phase 1 — Foundation (In progress)**
+- ✅ Foundational Manifesto.
+- ✅ Identity Whitepaper.
+- ✅ Internal Governance Model.
+- ✅ Values Manifesto.
+- ✅ Launch Strategy.
+- ✅ GitHub Repository.
+- ⏳ concordia.earth website.
+- ⏳ Identity cryptographic protocol.
+- ⏳ First 100 contributors.
+
+---
+
+## How to Contribute
+
+CONCORDIA needs people with diverse visions, skills, and perspectives from all around the world. You don't need to ask for permission — you just need to believe in the idea.
+
+### If you are a developer
+The most urgent technical tasks are in:
+- [ ] Architecture of the decentralized biometric identity system.
+- [ ] Implementation of Zero-Knowledge Proofs for human verification.
+- [ ] Preferential voting smart contracts on Polygon / Arbitrum.
+- [ ] Liveness detection system.
+- [ ] Accessible multi-language frontend.
+
+### If you are a cryptographer or researcher
+- [ ] Review and audit of the identity protocol.
+- [ ] Research in cancelable biometrics.
+- [ ] Design of anti-Sybil mechanisms without compromising privacy.
+
+### If you are an activist or civil society organization
+- [ ] Partnerships with human rights and digital democracy organizations.
+- [ ] Translation and cultural adaptation of the project.
+- [ ] Pilot tests with communities across different continents.
+
+### If you want to support in any other way
+Write to us at: **contact@concordia.earth**
+
+---
+
+## Core Values
+
+CONCORDIA operates under eight universal and non-negotiable values:
+
+**Respect · Empathy · Honesty · Responsibility · Solidarity · Gratitude · Justice · Freedom**
+
+No project decision may violate any of these values or the Universal Declaration of Human Rights.
+
+---
+
+## CONCORDIA and Artificial Intelligence
+
+Decisions in CONCORDIA are **exclusively human**. While the world invests in Artificial Intelligence, CONCORDIA invests in **Human Social Intelligence** — our species' unique ability to understand, relate to, and build collectively with one another.
+
+No AI agent can vote, deliberate, or participate as if it were a human being in CONCORDIA.
+
+> *"Humanity built artificial intelligence. CONCORDIA ensures that artificial intelligence does not build humanity."*
+
+---
+
+## Documentation
+
+| Document | Description |
+|-----------|-------------|
+| [Foundational Manifesto](docs/manifiesto-fundacional.md) | The philosophy and purpose of the project |
+| [Identity Whitepaper](docs/libro-blanco-identidad.md) | The technical system of sovereign identity |
+| [Governance Model](docs/gobernanza-interna.md) | How decisions are made in CONCORDIA |
+| [Values Manifesto](docs/manifiesto-valores.md) | What CONCORDIA is and what it will never do |
+| [CONCORDIA & AI](docs/concordia-ia.md) | Relationship with artificial intelligence |
+| [Roadmap](docs/hoja-de-ruta.md) | Project phases |
+
+---
+
+## License
+
+CONCORDIA is free software distributed under the **Creative Commons Zero (CC0)** license. It belongs to no one because it belongs to everyone.
+
+The code, documents, and results of CONCORDIA are in the public domain. Anyone can use, modify, and distribute any part of the project without restriction.
+
+---
+
+## The Manifesto in One Sentence
+
+> *"We are social beings. It is society that makes us human. CONCORDIA is the tool for humanity to finally listen to itself."*
+
+---
+
+<div align="center">
+
+**concordia.earth**
+
+*One protocol. One species. One voice.*
+
+*It belongs to our species.*
+
+</div>
