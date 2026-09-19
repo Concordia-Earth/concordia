@@ -1,4 +1,5 @@
 # CONCORDIA
+*Read this in other languages: [English](#english-version) | [Español](#qué-es-concordia)*
 ### *La cualidad de poner los corazones juntos*
 
 **concordia.earth** | [Manifiesto Fundacional](#manifiesto) | [Cómo contribuir](#contribuir) | [Documentación](#documentacion)
