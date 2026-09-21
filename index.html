@@ -33,7 +33,7 @@
         /* HEADER */
         header {
             text-align: center;
-            padding: 100px 24px 80px;
+            padding: 80px 24px 60px;
             border-bottom: 1px solid var(--border);
         }
 
@@ -50,7 +50,7 @@
             font-size: clamp(14px, 2vw, 18px);
             color: var(--muted);
             font-style: italic;
-            margin-bottom: 48px;
+            margin-bottom: 40px;
             letter-spacing: 0.05em;
         }
 
@@ -79,37 +79,82 @@
         main {
             max-width: 720px;
             margin: 0 auto;
-            padding: 80px 24px;
+            padding: 60px 24px;
         }
 
-        /* MANIFESTO */
+        /* MANIFESTO DESPLEGABLE */
         .manifesto {
-            margin-bottom: 80px;
+            margin-bottom: 60px;
         }
 
         .manifesto p {
             font-size: clamp(16px, 2vw, 19px);
             color: var(--text);
-            margin-bottom: 28px;
-            text-align: justify;
+            margin-bottom: 24px;
+            text-align: left;
         }
 
         .manifesto p.opening {
             font-size: clamp(18px, 2.5vw, 22px);
-            color: var(--text);
             font-style: italic;
         }
 
         .manifesto p.highlight {
-            font-size: clamp(16px, 2vw, 19px);
-            color: var(--text);
             font-weight: bold;
+        }
+
+        .manifesto-collapsed {
+            max-height: 280px;
+            overflow: hidden;
+            position: relative;
+            transition: max-height 0.5s ease-in-out;
+        }
+
+        .manifesto-collapsed::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 120px;
+            background: linear-gradient(transparent, var(--bg));
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        .manifesto-expanded {
+            max-height: 3000px;
+        }
+
+        .manifesto-expanded::after {
+            opacity: 0;
+        }
+
+        .toggle-btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .toggle-btn {
+            background: transparent;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            padding: 10px 24px;
+            font-size: 14px;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .toggle-btn:hover {
+            background: var(--accent-soft);
         }
 
         .manifesto .closing {
             text-align: center;
-            margin-top: 60px;
-            padding-top: 60px;
+            margin-top: 40px;
+            padding-top: 40px;
             border-top: 1px solid var(--border);
         }
 
@@ -118,20 +163,19 @@
             font-weight: bold;
             color: var(--text);
             margin-bottom: 24px;
-            font-style: normal;
         }
 
         /* DIVIDER */
         .divider {
             border: none;
             border-top: 1px solid var(--border);
-            margin: 80px 0;
+            margin: 60px 0;
         }
 
         /* CTA */
         .cta {
             text-align: center;
-            margin-bottom: 80px;
+            margin-bottom: 60px;
         }
 
         .cta h2 {
@@ -143,7 +187,7 @@
 
         .cta p {
             color: var(--muted);
-            margin-bottom: 40px;
+            margin-bottom: 32px;
             font-size: 16px;
             font-family: 'Arial', sans-serif;
         }
@@ -188,7 +232,7 @@
 
         /* VALUES */
         .values {
-            margin-bottom: 80px;
+            margin-bottom: 60px;
         }
 
         .values h2 {
@@ -221,8 +265,8 @@
         .contribute {
             background: var(--surface);
             border: 1px solid var(--border);
-            padding: 48px;
-            margin-bottom: 80px;
+            padding: 40px;
+            margin-bottom: 60px;
         }
 
         .contribute h2 {
@@ -294,43 +338,47 @@
 
     <main>
 
-        <!-- MANIFIESTO -->
+        <!-- MANIFIESTO CON DESPLEGABLE -->
         <section class="manifesto" id="manifiesto">
+            <div id="manifesto-content" class="manifesto-collapsed">
+                <p class="opening">Somos seres sociales. Es la sociedad la que nos hace humanos.</p>
 
-            <p class="opening">Somos seres sociales. Es la sociedad la que nos hace humanos.</p>
+                <p>Sin embargo, los sistemas que hemos construido para organizarnos nos fragmentan, nos enfrentan y nos silencian. No porque carezcamos de soluciones — sabemos cómo resolver el hambre, los conflictos, la desigualdad. Fallamos porque los intereses económicos se anteponen sistemáticamente a lo que beneficia a la humanidad.</p>
 
-            <p>Sin embargo, los sistemas que hemos construido para organizarnos nos fragmentan, nos enfrentan y nos silencian. No porque carezcamos de soluciones — sabemos cómo resolver el hambre, los conflictos, la desigualdad. Fallamos porque los intereses económicos se anteponen sistemáticamente a lo que beneficia a la humanidad.</p>
+                <p class="highlight">Este es el fallo fundamental de nuestra civilización. Un error del sistema.</p>
 
-            <p class="highlight">Este es el fallo fundamental de nuestra civilización. Un error del sistema.</p>
+                <p>Ha llegado el momento de cambiarlo.</p>
 
-            <p>Ha llegado el momento de cambiarlo.</p>
+                <p>CONCORDIA es una herramienta sin dueños, sin banderas y sin fronteras. Una infraestructura tecnológica descentralizada cuyo propósito es permitir que la humanidad se escuche a sí misma. Que la persona más pobre tenga exactamente la misma voz que el hombre más poderoso del mundo. Que la razón colectiva — no el dinero, no el poder — sea el faro que guíe nuestras decisiones comunes.</p>
 
-            <p>CONCORDIA es una herramienta sin dueños, sin banderas y sin fronteras. Una infraestructura tecnológica descentralizada cuyo propósito es permitir que la humanidad se escuche a sí misma. Que la persona más pobre tenga exactamente la misma voz que el hombre más poderoso del mundo. Que la razón colectiva — no el dinero, no el poder — sea el faro que guíe nuestras decisiones comunes.</p>
+                <p>CONCORDIA no pide permiso a los gobiernos ni a las instituciones. No pertenece a ningún gobierno, organización, empresa ni religión. No tiene ánimo de lucro. Ninguna persona, incluido su impulsor, obtendrá beneficio económico de este proyecto. Somos código abierto, alojamiento descentralizado y voluntad humana. Y estamos diseñados para ser resilientes — CONCORDIA dispone de un Sistema de Integridad y Reparación que garantiza que ningún intento de corrupción, manipulación o captura pueda torcer su propósito.</p>
 
-            <p>CONCORDIA no pide permiso a los gobiernos ni a las instituciones. No pertenece a ningún gobierno, organización, empresa ni religión. No tiene ánimo de lucro. Ninguna persona, incluido su impulsor, obtendrá beneficio económico de este proyecto. Somos código abierto, alojamiento descentralizado y voluntad humana. Y estamos diseñados para ser resilientes — CONCORDIA dispone de un Sistema de Integridad y Reparación que garantiza que ningún intento de corrupción, manipulación o captura pueda torcer su propósito.</p>
+                <p>Cada voto emitido en CONCORDIA queda grabado de forma inmutable y transparente mediante blockchain y es auditable por cualquier persona en el mundo. La identidad de cada participante se verifica de forma segura y descentralizada, usando acceso biométrico sin entregar datos personales. Tu voz es tuya. Tu identidad también.</p>
 
-            <p>Cada voto emitido en CONCORDIA queda grabado de forma inmutable y transparente mediante blockchain y es auditable por cualquier persona en el mundo. La identidad de cada participante se verifica de forma segura y descentralizada, usando acceso biométrico sin entregar datos personales. Tu voz es tuya. Tu identidad también.</p>
+                <p>Vivimos en una era en que la tecnología avanza más rápido que nuestra capacidad de gobernarnos. En que algoritmos, inteligencias artificiales e intereses ocultos moldean lo que pensamos, lo que votamos y lo que creemos posible. CONCORDIA es la respuesta humana a ese desafío — no una máquina que decide por nosotros, sino una herramienta que amplifica lo que somos: seres capaces de dialogar, de acordar y de construir juntos.</p>
 
-            <p>Vivimos en una era en que la tecnología avanza más rápido que nuestra capacidad de gobernarnos. En que algoritmos, inteligencias artificiales e intereses ocultos moldean lo que pensamos, lo que votamos y lo que creemos posible. CONCORDIA es la respuesta humana a ese desafío — no una máquina que decide por nosotros, sino una herramienta que amplifica lo que somos: seres capaces de dialogar, de acordar y de construir juntos.</p>
+                <p>CONCORDIA puede ser utilizada para expresar el pensamiento colectivo en cualquier escala — desde decisiones locales y regionales hasta nacionales e internacionales. Siempre libre de sesgos políticos, religiosos o intereses económicos de cualquier tipo. Es simplemente la voz de las personas, organizada con transparencia y respeto absoluto a cada individuo.</p>
 
-            <p>CONCORDIA puede ser utilizada para expresar el pensamiento colectivo en cualquier escala — desde decisiones locales y regionales hasta nacionales e internacionales. Siempre libre de sesgos políticos, religiosos o intereses económicos de cualquier tipo. Es simplemente la voz de las personas, organizada con transparencia y respeto absoluto a cada individuo.</p>
+                <p>Nuestro primer acto será simbólico y poderoso: elegir juntos, por primera vez en la historia, un símbolo que nos represente a todos. No impuesto por ningún estado ni institución — elegido libremente por la especie.</p>
 
-            <p>Nuestro primer acto será simbólico y poderoso: elegir juntos, por primera vez en la historia, un símbolo que nos represente a todos. No impuesto por ningún estado ni institución — elegido libremente por la especie.</p>
+                <p>El horizonte es más amplio: construir el mecanismo por el cual la humanidad pueda, por primera vez, expresar su voluntad colectiva sobre los problemas que amenazan nuestra existencia común. El clima. La guerra. La desigualdad. La tecnología sin ética. Los retos que ningún gobierno afronta solo porque ninguno tiene el mandato real de toda la humanidad.</p>
 
-            <p>El horizonte es más amplio: construir el mecanismo por el cual la humanidad pueda, por primera vez, expresar su voluntad colectiva sobre los problemas que amenazan nuestra existencia común. El clima. La guerra. La desigualdad. La tecnología sin ética. Los retos que ningún gobierno afronta solo porque ninguno tiene el mandato real de toda la humanidad.</p>
+                <p class="highlight">CONCORDIA es ese mandato.</p>
 
-            <p class="highlight">CONCORDIA es ese mandato.</p>
+                <p>Sabemos que es un camino largo. Lo recorreremos con disciplina, inteligencia e integridad.</p>
 
-            <p>Sabemos que es un camino largo. Lo recorreremos con disciplina, inteligencia e integridad.</p>
+                <p>Porque creemos que somos capaces de algo mejor. Porque creemos que una humanidad que se escucha a sí misma es una humanidad más sabia, más justa y más libre.</p>
 
-            <p>Porque creemos que somos capaces de algo mejor. Porque creemos que una humanidad que se escucha a sí misma es una humanidad más sabia, más justa y más libre.</p>
+                <p>CONCORDIA no te pertenece a ti ni a mí. Es un bien común de la humanidad. Libre, abierto e incorruptible por definición.</p>
 
-            <p>CONCORDIA no te pertenece a ti ni a mí. Es un bien común de la humanidad. Libre, abierto e incorruptible por definición.</p>
-
-            <div class="closing">
-                <div class="closing-main">Le pertenece a nuestra especie.</div>
+                <div class="closing">
+                    <div class="closing-main">Le pertenece a nuestra especie.</div>
+                </div>
             </div>
 
+            <div class="toggle-btn-container">
+                <button id="toggle-btn" class="toggle-btn" onclick="toggleManifesto()">Leer manifiesto completo</button>
+            </div>
         </section>
 
         <hr class="divider">
@@ -341,8 +389,11 @@
             <p>No necesitas pedir permiso. Solo necesitas creer en la idea.</p>
             <div class="cta-buttons">
                 <a href="https://github.com/Concordia-Earth/concordia" target="_blank" class="btn-primary">Ver en GitHub</a>
-                <a href="mailto:contact@concordia.com" class="btn-secondary">Escríbenos</a>
+                <a href="https://discord.gg/3BGTaURDq" target="_blank" class="btn-secondary">Unirse a Discord</a>
             </div>
+            <p style="margin-top: 24px; font-size: 14px; font-family: 'Arial', sans-serif;">
+                O escríbenos a: <a href="mailto:contact@concordia.com" style="color: var(--accent); text-decoration: underline;">contact@concordia.com</a>
+            </p>
         </section>
 
         <hr class="divider">
@@ -391,11 +442,29 @@
         <p>
             <a href="https://github.com/Concordia-Earth/.github/blob/main/README.md" target="_blank">Legal Disclaimer</a> | 
             <a href="https://github.com/Concordia-Earth/concordia/blob/main/docs/gobernanza-interna.md" target="_blank">Governance Roadmap</a> | 
-            <a href="https://github.com/Concordia-Earth/.github/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a> | 
-            <a href="mailto:contact@concordia.com">Contacto</a>
+            <a href="https://github.com/Concordia-Earth/.github/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a>
         </p>
-        <p style="margin-top: 12px; font-size: 11px; opacity: 0.7;">Dominio público · Licencia CC0 · Le pertenece a nuestra especie</p>
+        <p style="margin-top: 12px; font-size: 13px;">Contacto: <strong>contact@concordia.com</strong></p>
+        <p style="margin-top: 8px; font-size: 11px; opacity: 0.7;">Dominio público · Licencia CC0 · Le pertenece a nuestra especie</p>
     </footer>
+
+    <!-- SCRIPT DESPLEGABLE -->
+    <script>
+        function toggleManifesto() {
+            const content = document.getElementById('manifesto-content');
+            const btn = document.getElementById('toggle-btn');
+            
+            if (content.classList.contains('manifesto-collapsed')) {
+                content.classList.remove('manifesto-collapsed');
+                content.classList.add('manifesto-expanded');
+                btn.textContent = 'Mostrar menos';
+            } else {
+                content.classList.remove('manifesto-expanded');
+                content.classList.add('manifesto-collapsed');
+                btn.textContent = 'Leer manifiesto completo';
+            }
+        }
+    </script>
 
 </body>
 </html>
