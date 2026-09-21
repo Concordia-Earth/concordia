@@ -2,7 +2,7 @@
 
 *Las fases del proyecto*
 
-*Versión 1.0 — 2026*
+*Versión 1.1 — 2026*
 
 ---
 
@@ -10,9 +10,9 @@
 
 ---
 
-## Fase 1 — Fundación (Meses 1–6)
+## Fase 1 — Semilla e Infraestructura Núcleo (Meses 1–6)
 
-Establecer las bases filosóficas, técnicas y comunitarias del proyecto. Esta fase es esencialmente humana — construir el núcleo de personas que crean en la visión antes de escribir una sola línea de código.
+Establecer las bases filosóficas, técnicas y comunitarias del proyecto bajo licencias abiertas (*Open Source*). Esta fase es esencialmente humana — construir el núcleo de personas que crean en la visión antes de escribir una sola línea de código.
 
 ### Hitos
 - ✅ Manifiesto Fundacional publicado.
@@ -20,7 +20,7 @@ Establecer las bases filosóficas, técnicas y comunitarias del proyecto. Esta f
 - ✅ Modelo de Gobernanza Interna.
 - ✅ Manifiesto de Valores.
 - ✅ Documento CONCORDIA e IA.
-- ✅ Repositorio público en GitHub.
+- ✅ Repositorio público en GitHub con licencia *Open Source* y exención de responsabilidad.
 - ⏳ Web concordia.earth publicada.
 - ⏳ Primeros 100 colaboradores de al menos 20 países.
 - ⏳ Canales de comunidad activos (Discord, foros).
@@ -38,6 +38,7 @@ Establecer las bases filosóficas, técnicas y comunitarias del proyecto. Esta f
 El primer ejercicio real de democracia global. Elegir juntos la Bandera de la Humanidad sirve como prueba de concepto del sistema técnico y como primer acto simbólico de soberanía colectiva.
 
 ### Hitos
+- ⏳ Constitución formal de la **Asociación Sin Ánimo de Lucro** para asumir la titularidad del dominio `concordia.earth` y la infraestructura técnica, protegiendo a los desarrolladores y colaboradores.
 - ⏳ Desarrollo y auditoría del contrato inteligente de votación.
 - ⏳ Implementación del sistema de identidad soberana (SSI).
 - ⏳ Lanzamiento de la convocatoria global de propuestas de bandera.
@@ -45,6 +46,7 @@ El primer ejercicio real de democracia global. Elegir juntos la Bandera de la Hu
 - ⏳ Resultado registrado en blockchain — primer consenso inmutable de la humanidad.
 
 ### Indicadores de éxito
+- Entidad jurídica de la Asociación constituida con personalidad propia.
 - Sistema técnico de identidad y votación funcional y auditado.
 - Participación de personas de al menos 50 países.
 - Primer resultado democrático global registrado en blockchain.
@@ -53,9 +55,10 @@ El primer ejercicio real de democracia global. Elegir juntos la Bandera de la Hu
 
 ## Fase 3 — Expansión y Legitimidad (Meses 19–36)
 
-Crecer la comunidad global y establecer CONCORDIA como referencia legítima de la voz ciudadana mundial.
+Crecer la comunidad global y establecer CONCORDIA como referencia legítima de la voz ciudadana mundial, institucionalizando la gobernanza del protocolo.
 
 ### Hitos
+- ⏳ Traspaso de los activos de la asociación a la **Fundación CONCORDIA** o protocolo totalmente distribuido (DAO).
 - ⏳ Alcanzar 1 millón de identidades verificadas.
 - ⏳ Plataforma traducida a los 20 idiomas más hablados.
 - ⏳ Alianzas con organizaciones de sociedad civil global.
@@ -64,6 +67,7 @@ Crecer la comunidad global y establecer CONCORDIA como referencia legítima de l
 - ⏳ Al menos 5 artículos o entrevistas en medios internacionales.
 
 ### Indicadores de éxito
+- Constitución formal de la Fundación neutral custodio del protocolo.
 - 1 millón de participantes verificados.
 - Presencia mediática internacional consolidada.
 - Reconocimiento por parte de organismos de sociedad civil.
@@ -128,7 +132,7 @@ CONCORDIA no puede depender de ningún interés económico privado sin compromet
 - **Desarrollo técnico** — Contribuciones voluntarias de desarrolladores open source.
 - **Infraestructura** — Donaciones de fundaciones tecnológicas alineadas con el bien público.
 - **Sostenibilidad** — Micromecenazgo voluntario de los participantes.
-- **Principio irrenunciable** — Ninguna empresa, gobierno o individuo puede financiar CONCORDIA a cambio de influencia.
+- **Principio irrenunciable** — Ninguna empresa, gobierno o individuo puede financiar CONCORDIA a cambio de influencia. Todos los fondos serán gestionados por la **Asociación / Fundación CONCORDIA** con auditoría en tiempo real.
 
 ---
 
@@ -136,4 +140,4 @@ CONCORDIA no puede depender de ningún interés económico privado sin compromet
 
 ---
 
-*concordia.earth — Hoja de Ruta v1.0 — 2026*
+*concordia.earth — Hoja de Ruta v1.1 — 2026*
