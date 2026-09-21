@@ -2,7 +2,7 @@
 
 *Cómo CONCORDIA se gobierna a sí mismo*
 
-*Versión 1.0 — 2026*
+*Versión 1.1 — 2026*
 
 ---
 
@@ -20,24 +20,24 @@ CONCORDIA nace de una idea personal, pero no puede pertenecer a una persona. El 
 
 ## 2. Las Tres Fases de Gobernanza
 
-### Fase 1 — Fundación (Meses 1-12)
-El impulsor actúa como guardián filosófico. Todas las decisiones son públicas y razonadas. La comunidad puede proponer y debatir libremente. El veto del impulsor solo aplica a violaciones de principios intocables.
+### Fase 1 — Semilla y Desarrollo Inicial (Meses 1-12)
+El impulsor actúa como guardián técnico y filosófico. El proyecto opera bajo licencias abiertas (*Open Source*) con exención explícita de responsabilidad personal.
 
 - Todas las decisiones son públicas y razonadas.
-- La comunidad puede proponer y debatir libremente.
-- El veto del impulsor solo aplica a violaciones de principios intocables.
+- La comunidad puede proponer y debatir libremente en los canales oficiales.
+- El veto del impulsor solo aplica a violaciones de los Principios Intocables.
 - El objetivo explícito es hacer el veto innecesario lo antes posible.
 
-### Fase 2 — Transición (Meses 13-36)
-Se forma el Consejo de Guardianes — elegido por la comunidad mediante el propio sistema de votación de CONCORDIA.
+### Fase 2 — Transición y Consolidación Comunitaria (Meses 13-36)
+Se constituye formalmente una **Asociación Sin Ánimo de Lucro** que asume la personalidad jurídica y la custodia del dominio `concordia.earth`, repositorios e infraestructura. Se forma el Consejo de Guardianes, elegido por la comunidad.
 
 - Decisiones ordinarias: votación abierta de la comunidad.
 - Decisiones estratégicas: aprobación del Consejo de Guardianes.
 - El Consejo es elegido por la comunidad, no designado.
 - Diversidad geográfica y cultural garantizada.
 
-### Fase 3 — Autonomía Plena
-CONCORDIA se gobierna a sí mismo mediante sus propios mecanismos. Ninguna persona individual tiene más poder que cualquier otra.
+### Fase 3 — Autonomía Plena e Institucionalización
+Los activos de la asociación se traspasan a una **Fundación** o protocolo totalmente distribuido (DAO). CONCORDIA se gobierna a sí mismo mediante sus propios mecanismos. Ninguna persona individual tiene más poder que cualquier otra.
 
 > *"La meta de CONCORDIA no es crear un proyecto eterno bajo la tutela de sus fundadores. Es crear las condiciones para que la humanidad no los necesite."*
 
@@ -65,38 +65,27 @@ Para decisiones estratégicas, no basta con que la mayoría vote a favor — es 
 
 ## 4. Los Principios Intocables
 
-Estos principios no pueden ser modificados por ninguna votación, consenso o mayoría. Si alguno fuera comprometido, el protocolo activa su Sistema de 
-Integridad y Reparación. Solo si la reparación fuera imposible, 
-se activaría la disolución como último recurso.
+Estos principios no pueden ser modificados por ninguna votación, consenso o mayoría. Si alguno fuera comprometido, el protocolo activa su Sistema de Integridad y Reparación. Solo si la reparación fuera imposible, se activaría la disolución como último recurso.
 
 **Independencia absoluta** — Sin influencia de ningún gobierno, empresa, organización o religión.
 
-**Carácter no lucrativo** — Ninguna persona obtendrá beneficio económico del proyecto. Jamás.
+**Carácter no lucrativo** — Ninguna persona obtendrá beneficio económico privado del proyecto. Todos los activos, infraestructura y marcas serán custodiados por una entidad sin ánimo de lucro (Asociación / Fundación) cuyo único fin es la preservación y desarrollo del bien público.
 
 **Un humano, un voto** — La igualdad radical es matemática, no una promesa.
 
-**Descentralización permanente** — La descentralización es permanente 
-e irrevocable. Ante cualquier intento de centralización o corrupción, 
-CONCORDIA activa su Sistema de Integridad y Reparación en tres niveles:
+**Descentralización permanente** — La descentralización es permanente e irrevocable. Ante cualquier intento de centralización o corrupción, CONCORDIA activa su Sistema de Integridad y Reparación en tres niveles:
 
-**Nivel 1 — Detección:** auditoría permanente y pública que identifica 
-cualquier intento de influencia en tiempo real, antes de que afecte 
-ningún resultado.
-
-**Nivel 2 — Contención y Reparación:** mecanismos técnicos y comunitarios 
-para aislar la corrupción, revertir sus efectos y restaurar la integridad 
-del sistema sin interrumpir su funcionamiento.
-
-**Nivel 3 — Disolución:** solo como último recurso absoluto, cuando la 
-corrupción sea tan profunda que la reparación sea técnicamente imposible. 
-No es la primera respuesta — es la garantía final de que CONCORDIA nunca 
-será un instrumento corrompido al servicio de intereses ajenos a la humanidad.
+- **Nivel 1 — Detección:** auditoría permanente y pública que identifica cualquier intento de influencia en tiempo real, antes de que afecte ningún resultado.
+- **Nivel 2 — Contención y Reparación:** mecanismos técnicos y comunitarios para aislar la corrupción, revertir sus efectos y restaurar la integridad del sistema sin interrumpir su funcionamiento.
+- **Nivel 3 — Disolución:** solo como último recurso absoluto, cuando la corrupción sea tan profunda que la reparación sea técnicamente imposible. No es la primera respuesta — es la garantía final de que CONCORDIA nunca será un instrumento corrompido al servicio de intereses ajenos a la humanidad.
 
 **Neutralidad radical** — Sin ideología política, religiosa ni económica.
 
+---
+
 ## 5. Los Ocho Valores Universales
 
-La brújula moral de todas las decisiones de CONCORDIA. Ninguna decisión puede ir en contra de ninguno de estos valores.
+La brújula moral de todas las decisiones de CONCORDIA. Ninguna decisión puede ir en contra de ninguno de estos valores:
 
 1. **Respeto** — Reconocer la dignidad igual de todas las personas.
 2. **Empatía** — Comprender los sentimientos y perspectivas de los demás.
@@ -125,4 +114,4 @@ La brújula moral de todas las decisiones de CONCORDIA. Ninguna decisión puede 
 
 ---
 
-*concordia.earth — Modelo de Gobernanza Interna v1.0 — 2026*
+*concordia.earth — Modelo de Gobernanza Interna v1.1 — 2026*
