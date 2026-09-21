@@ -21,7 +21,7 @@ Establecer las bases filosóficas, técnicas y comunitarias del proyecto bajo li
 - ✅ Manifiesto de Valores.
 - ✅ Documento CONCORDIA e IA.
 - ✅ Repositorio público en GitHub con licencia *Open Source* y exención de responsabilidad.
-- ⏳ Web concordia.earth publicada.
+- ✅ Web concordia.earth publicada.
 - ⏳ Primeros 100 colaboradores de al menos 20 países.
 - ⏳ Canales de comunidad activos (Discord, foros).
 - ⏳ Primeros contactos con organizaciones de sociedad civil.
