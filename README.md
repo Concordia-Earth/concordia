@@ -33,10 +33,10 @@ CONCORDIA combina tres capas tecnológicas para garantizar que cada voz pertenec
 | **Infraestructura** | IPFS / Arweave + Open Source | Descentralizado. Sin servidor central. Sin punto de control. |
 
 ### Principios técnicos irrenunciables
-- 🔒 Los datos biométricos **nunca abandonan** el dispositivo del usuario.
-- 🌐 **Sin base de datos central** — ninguna entidad puede controlar el sistema.
-- 👁️ **Auditable en tiempo real** por cualquier persona en el mundo.
-- 🤖 **Resistente a la IA** — detección de vivacidad activa impide suplantación artificial.
+- Los datos biométricos **nunca abandonan** el dispositivo del usuario.
+- **Sin base de datos central** — ninguna entidad puede controlar el sistema.
+- **Auditable en tiempo real** por cualquier persona en el mundo.
+- **Resistente a la IA** — detección de vivacidad activa impide suplantación artificial.
 
 ---
 
@@ -48,18 +48,27 @@ No como un fin, sino como una prueba de concepto — demostrar que 8.000 millone
 
 ---
 
+## Arquitectura de Contratos Inteligentes
+
+El núcleo tecnológico descentralizado de CONCORDIA se encuentra en la carpeta `contracts/`:
+
+- **`ConcordiaRegistry.sol`**: Gestiona el registro inmutable de propuestas públicas de gobernanza, vinculando cada iniciativa a sus metadatos en IPFS y controlando los periodos de tiempo en los que se puede emitir voto.
+- **`ConcordiaVoting.sol`**: Gestiona la urna electoral descentralizada. Implementa un sistema de control mediante nullifiers derivados de pruebas de conocimiento cero (ZKP) para garantizar de forma matemática el principio de un humano, un voto y la prevención estricta de doble voto, manteniendo absoluto anonimato.
+
+---
+
 ## Estado Actual del Proyecto
 
 **Fase 1 — Fundación (En curso)**
-- ✅ Manifiesto Fundacional.
-- ✅ Libro Blanco de Identidad.
-- ✅ Modelo de Gobernanza Interna.
-- ✅ Manifiesto de Valores.
-- ✅ Estrategia de Lanzamiento.
-- ✅ Repositorio GitHub.
-- ⏳ Web concordia.earth.
-- ⏳ Protocolo criptográfico de identidad.
-- ⏳ Primeros 100 colaboradores.
+- Manifiesto Fundacional
+- Libro Blanco de Identidad
+- Modelo de Gobernanza Interna
+- Manifiesto de Valores
+- Estrategia de Lanzamiento
+- Repositorio GitHub y contratos base en Solidity
+- Web concordia.earth
+- Protocolo criptográfico de identidad
+- Primeros 100 colaboradores
 
 ---
 
@@ -69,21 +78,21 @@ CONCORDIA necesita personas con visiones, habilidades y perspectivas diversas de
 
 ### Si eres desarrollador
 Los problemas técnicos más urgentes están en:
-- [ ] Arquitectura del sistema de identidad biométrica descentralizada.
-- [ ] Implementación de Zero-Knowledge Proofs para verificación humana.
-- [ ] Smart contracts de votación preferencial en Polygon / Arbitrum.
-- [ ] Sistema de detección de vivacidad (*liveness detection*).
-- [ ] Frontend accesible multiidioma.
+- Arquitectura del sistema de identidad biométrica descentralizada.
+- Implementación de Zero-Knowledge Proofs para verificación humana.
+- Smart contracts de votación preferencial en Polygon / Arbitrum.
+- Sistema de detección de vivacidad (*liveness detection*).
+- Frontend accesible multiidioma.
 
 ### Si eres criptógrafo o investigador
-- [ ] Revisión y auditoría del protocolo de identidad.
-- [ ] Investigación en *cancelable biometrics*.
-- [ ] Diseño de mecanismos anti-Sybil sin comprometer privacidad.
+- Revisión y auditoría del protocolo de identidad.
+- Investigación en *cancelable biometrics*.
+- Diseño de mecanismos anti-Sybil sin comprometer privacidad.
 
 ### Si eres activista u organización de sociedad civil
-- [ ] Alianzas con organizaciones de derechos humanos y democracia digital.
-- [ ] Traducción y adaptación cultural del proyecto.
-- [ ] Pruebas piloto con comunidades en distintos continentes.
+- Alianzas con organizaciones de derechos humanos y democracia digital.
+- Traducción y adaptación cultural del proyecto.
+- Pruebas piloto con comunidades en distintos continentes.
 
 ### Si quieres apoyar de cualquier otra forma
 Escríbenos a: **contact@concordia.earth**
@@ -116,6 +125,7 @@ Ningún agente de IA puede votar, deliberar ni participar como si fuera un ser h
 |-----------|-------------|
 | [Manifiesto Fundacional](docs/manifiesto-fundacional.md) | La filosofía y el propósito del proyecto |
 | [Libro Blanco de Identidad](docs/libro-blanco-identidad.md) | El sistema técnico de identidad soberana |
+| [Especificación Técnica MVP](docs/especificacion-tecnica-mvp.html) | Arquitectura y diseño técnico del prototipo |
 | [Modelo de Gobernanza](docs/gobernanza-interna.md) | Cómo se toman las decisiones en CONCORDIA |
 | [Manifiesto de Valores](docs/manifiesto-valores.md) | Lo que CONCORDIA es y lo que nunca hará |
 | [CONCORDIA e IA](docs/concordia-ia.md) | La relación con la inteligencia artificial |
@@ -185,10 +195,10 @@ CONCORDIA combines three technological layers to guarantee that each voice belon
 | **Infrastructure** | IPFS / Arweave + Open Source | Decentralized. No central server. No single point of control. |
 
 ### Core Technical Principles
-- 🔒 Biometric data **never leaves** the user's device.
-- 🌐 **No central database** — no single entity can control the system.
-- 👁️ **Auditable in real time** by anyone in the world.
-- 🤖 **AI Resistant** — active liveness detection prevents artificial impersonation.
+- Biometric data **never leaves** the user's device.
+- **No central database** — no single entity can control the system.
+- **Auditable in real time** by anyone in the world.
+- **AI Resistant** — active liveness detection prevents artificial impersonation.
 
 ---
 
@@ -200,18 +210,27 @@ Not as an end in itself, but as a proof of concept — demonstrating that 8 bill
 
 ---
 
+## Smart Contracts Architecture
+
+The decentralized technical core of CONCORDIA is located in the `contracts/` folder:
+
+- **`ConcordiaRegistry.sol`**: Manages the immutable registry of public governance proposals, linking each initiative to its IPFS metadata and controlling the voting timeframes.
+- **`ConcordiaVoting.sol`**: Manages the decentralized voting ballot box. It implements a control system via nullifiers derived from zero-knowledge proofs (ZKP) to mathematically guarantee the one human, one vote principle and strict prevention of double voting, preserving absolute anonymity.
+
+---
+
 ## Current Project Status
 
 **Phase 1 — Foundation (In progress)**
-- ✅ Foundational Manifesto.
-- ✅ Identity Whitepaper.
-- ✅ Internal Governance Model.
-- ✅ Values Manifesto.
-- ✅ Launch Strategy.
-- ✅ GitHub Repository.
-- ⏳ concordia.earth website.
-- ⏳ Identity cryptographic protocol.
-- ⏳ First 100 contributors.
+- Foundational Manifesto
+- Identity Whitepaper
+- Internal Governance Model
+- Values Manifesto
+- Launch Strategy
+- GitHub Repository and Solidity core contracts
+- concordia.earth website
+- Identity cryptographic protocol
+- First 100 contributors
 
 ---
 
@@ -221,21 +240,21 @@ CONCORDIA needs people with diverse visions, skills, and perspectives from all a
 
 ### If you are a developer
 The most urgent technical tasks are in:
-- [ ] Architecture of the decentralized biometric identity system.
-- [ ] Implementation of Zero-Knowledge Proofs for human verification.
-- [ ] Preferential voting smart contracts on Polygon / Arbitrum.
-- [ ] Liveness detection system.
-- [ ] Accessible multi-language frontend.
+- Architecture of the decentralized biometric identity system.
+- Implementation of Zero-Knowledge Proofs for human verification.
+- Preferential voting smart contracts on Polygon / Arbitrum.
+- Liveness detection system.
+- Accessible multi-language frontend.
 
 ### If you are a cryptographer or researcher
-- [ ] Review and audit of the identity protocol.
-- [ ] Research in cancelable biometrics.
-- [ ] Design of anti-Sybil mechanisms without compromising privacy.
+- Review and audit of the identity protocol.
+- Research in cancelable biometrics.
+- Design of anti-Sybil mechanisms without compromising privacy.
 
 ### If you are an activist or civil society organization
-- [ ] Partnerships with human rights and digital democracy organizations.
-- [ ] Translation and cultural adaptation of the project.
-- [ ] Pilot tests with communities across different continents.
+- Partnerships with human rights and digital democracy organizations.
+- Translation and cultural adaptation of the project.
+- Pilot tests with communities across different continents.
 
 ### If you want to support in any other way
 Write to us at: **contact@concordia.earth**
@@ -268,6 +287,7 @@ No AI agent can vote, deliberate, or participate as if it were a human being in 
 |-----------|-------------|
 | [Foundational Manifesto](docs/manifiesto-fundacional.md) | The philosophy and purpose of the project |
 | [Identity Whitepaper](docs/libro-blanco-identidad.md) | The technical system of sovereign identity |
+| [MVP Technical Specification](docs/especificacion-tecnica-mvp.html) | Architecture and technical design of the prototype |
 | [Governance Model](docs/gobernanza-interna.md) | How decisions are made in CONCORDIA |
 | [Values Manifesto](docs/manifiesto-valores.md) | What CONCORDIA is and what it will never do |
 | [CONCORDIA & AI](docs/concordia-ia.md) | Relationship with artificial intelligence |
