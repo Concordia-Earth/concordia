@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONCORDIA — Especificación Técnica MVP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #0a0a0f;
+            --surface: #12121a;
+            --border: #1e1e2e;
+            --text: #e8e8f0;
+            --muted: #8888a8;
+            --accent: #6b8cff;
+            --accent-soft: #1a1f3a;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 24px 60px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            font-size: clamp(32px, 6vw, 64px);
+            font-weight: normal;
+            letter-spacing: 0.15em;
+            color: var(--text);
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            font-size: clamp(14px, 2vw, 16px);
+            color: var(--muted);
+            font-style: italic;
+            letter-spacing: 0.05em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Arial', sans-serif;
+            color: var(--text);
+            font-weight: normal;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(24px, 3vw, 32px);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--accent);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 16px;
+        }
+
+        h2 {
+            font-size: 20px;
+            letter-spacing: 0.05em;
+            border-left: 3px solid var(--accent);
+            padding-left: 12px;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: var(--accent);
+        }
+
+        p {
+            font-size: 17px;
+            color: var(--text);
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 24px;
+        }
+
+        li {
+            font-size: 17px;
+            color: var(--muted);
+            margin-bottom: 10px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        li strong {
+            color: var(--text);
+        }
+
+        .meta-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 24px;
+            margin-bottom: 40px;
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            color: var(--muted);
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 60px 0;
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 48px 24px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 13px;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 0.05em;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">CONCORDIA</div>
+        <div class="subtitle">Especificación Técnica del Prototipo (MVP)</div>
+    </header>
+
+    <main>
+        <div class="meta-box">
+            <p style="margin: 0;"><strong>Versión:</strong> 1.0 — 2026<br>
+            <strong>Ámbito:</strong> Arquitectura y diseño técnico para votación descentralizada</p>
+        </div>
+
+        <h1>Especificación Técnica del Prototipo (MVP)</h1>
+
+        <h2>1. Objetivo del MVP</h2>
+        <p>El Producto Mínimo Viable (MVP) de CONCORDIA tiene como propósito demostrar la viabilidad técnica de una votación global, inmutable y resistente a fraudes, garantizando el principio de «un humano, un voto» mediante pruebas de conocimiento cero (Zero-Knowledge Proofs), sin comprometer la identidad ni la privacidad de los participantes.</p>
+
+        <h2>2. Arquitectura de Contratos Inteligentes (Smart Contracts)</h2>
+        <p>Los contratos inteligentes se implementarán en <strong>Solidity</strong> y se desplegarán inicialmente en una red de capa 2 (como Polygon PoS o Arbitrum) para garantizar costes de transacción reducidos y alta velocidad de procesamiento.</p>
+
+        <h3>2.1 Módulo de Propuestas (ConcordiaRegistry.sol)</h3>
+        <ul>
+            <li><strong>Estructura de la Propuesta:</strong> Cada votación contendrá un identificador único, un hash IPFS con los detalles de la propuesta, marcas de tiempo de inicio y fin, y el estado del proceso.</li>
+            <li><strong>Inmutabilidad:</strong> Una vez registrada una propuesta en la cadena de bloques, sus parámetros fundamentales no podrán ser alterados ni eliminados por ninguna entidad.</li>
+        </ul>
+
+        <h3>2.2 Módulo de Emisión y Cómputo de Voto (ConcordiaVoting.sol)</h3>
+        <ul>
+            <li><strong>Nullifiers (Anulación de Doble Voto):</strong> Para evitar que un mismo usuario emita más de un voto por propuesta sin revelar su identidad, el contrato validará un nullifier hash generado criptográficamente en el dispositivo del usuario.</li>
+            <li><strong>Registro Transparente:</strong> El contrato registrará exclusivamente la opción seleccionada vinculada al nullifier, manteniendo el anonimato absoluto del elector.</li>
+        </ul>
+
+        <h2>3. Sistema de Identidad y Verificación (Anti-Sybil)</h2>
+        <p>Para cumplir con el principio fundacional de identidad soberana:</p>
+        <ul>
+            <li><strong>Generación de ZKP en el Cliente:</strong> La verificación de que el usuario es un ser humano único se realizará en su dispositivo local utilizando credenciales verificables (compatibles con estándares W3C y soluciones como WorldID o Gitcoin Passport).</li>
+            <li><strong>Privacidad de Datos:</strong> Ningún dato biométrico o personal será transmitido a la blockchain ni almacenado en servidores centralizados. El sistema solo recibe y valida la prueba criptográfica matemática.</li>
+        </ul>
+
+        <h2>4. Interfaz de Usuario y Capa de Presentación</h2>
+        <ul>
+            <li><strong>Frontend:</strong> Desarrollado utilizando <strong>Next.js</strong> y <strong>Tailwind CSS</strong>, manteniendo un diseño minimalista, sobrio y accesible.</li>
+            <li><strong>Conectividad Web3:</strong> Integración mediante librerías estándar (Wagmi / Thirdweb) para permitir a los usuarios conectar sus monederos digitales o sistemas de autenticación descentralizada.</li>
+            <li><strong>Almacenamiento Descentralizado:</strong> Los metadatos de las propuestas y los textos informativos se gestionarán a través de IPFS / Arweave para garantizar la permanencia y resistencia a la censura.</li>
+        </ul>
+
+        <h2>5. Criterios de Validación del Prototipo</h2>
+        <ul>
+            <li><strong>Auditoría de Doble Voto:</strong> Comprobación matemática de que ningún nullifier puede ser utilizado dos veces en la misma votación.</li>
+            <li><strong>Pruebas de Carga:</strong> Simulación de emisión masiva de votos concurrentes para medir la estabilidad de la red de capa 2 elegida.</li>
+            <li><strong>Accesibilidad y Usabilidad:</strong> Verificación de que el proceso de emisión de voto no requiera conocimientos técnicos avanzados por parte del usuario final.</li>
+        </ul>
+
+    </main>
+
+    <footer>
+        <p>concordia.earth — Especificación Técnica MVP v1.0 — 2026</p>
+        <p style="margin-top: 8px;"><a href="https://github.com/Concordia-Earth/concordia" target="_blank">Repositorio en GitHub</a></p>
+    </footer>
+
+</body>
+</html>
